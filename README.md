@@ -11,7 +11,7 @@ An project of universal stick for various IOT appliances controlled via UART.
 3. Possibility of swapping the middle signal TX/RX contacts.
 4. IR transmission and receiving via one wire connected to TSOP output.
 5. Minimalistic design: 30.5x19mm (PCB size: 23.5x19mm).
-6. Using popular Wi-Fi module [ESP12-F](https://docs.ai-thinker.com/_media/esp8266/docs/esp-12f_product_specification_en.pdf) based on ESP8266 SoC.
+6. Using Wi-Fi module [WT0132C6-S5](https://en.wireless-tag.com/article-item-104.html) based on ESP32-C6 SoC.
 
 ![1](images/view01.jpg) ![1](images/view02.jpg)
 
@@ -31,7 +31,7 @@ A far from complete list of supported brands:
 
 ## Signal lines TX/RX
 
-To select the location of the signal contacts, it is necessary to close the jumper platforms with drops of solder (in the photos is marked in red). Signal lines are named according to the master, that is, ESP12-F.
+To select the location of the signal contacts, it is necessary to close the jumper platforms with drops of solder (in the photos is marked in red). Signal lines are named according to the master, that is, ESP32-C6.
 
 ![1](images/midea.png) ![2](images/haier.png)
 
